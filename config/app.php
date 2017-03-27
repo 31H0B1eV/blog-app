@@ -120,7 +120,7 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'daily'),
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
@@ -179,6 +179,8 @@ return [
 
         Backpack\Base\BaseServiceProvider::class,
         Backpack\CRUD\CrudServiceProvider::class,
+
+        Backpack\LogManager\LogManagerServiceProvider::class,
 
     ],
 
