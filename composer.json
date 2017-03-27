@@ -9,6 +9,8 @@
         "backpack/base": "^0.7.16",
         "backpack/crud": "^3.2",
         "backpack/logmanager": "^2.3",
+        "backpack/pagemanager": "^1.1",
+        "backpack/settings": "^2.0",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"
     },
